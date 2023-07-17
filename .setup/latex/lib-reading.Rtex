@@ -3,7 +3,7 @@
 \input{.setup/latex/preamble/preamble}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% BIBLATEX APA
+% BIBLATEX READING
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %% begin.rcode
@@ -43,7 +43,8 @@
 %         ".setup",
 %         "latex",
 %         "bib"
-%       )
+%       ),
+%       style = "reading"
 %     )
 %   )
 % } else {
@@ -57,7 +58,8 @@
 %       output_path = root$find_file(
 %         ".setup",
 %         "latex"
-%       )
+%       ),
+%       style = "reading"
 %     )
 %   )
 % }
@@ -65,13 +67,14 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{R Packages}
-\author{Ivan Jacob Agaloos Pesigan}
-\date{\today}
-
 \begin{document}
 
-\maketitle
+\begin{center}
+    \LARGE
+    \textbf{Ivan Jacob Agaloos Pesigan} \\
+    \large
+    \textbf{\today}
+\end{center}
 
 \nocite{*}
 

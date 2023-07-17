@@ -93,6 +93,18 @@
     \item \fullcite{Ou-Hunter-Chow-2019}
 \end{itemize}
 
+\section*{lavaan}
+
+\begin{itemize}
+    \item \fullcite{Rosseel-2012}
+\end{itemize}
+
+\section*{OpenMx}
+
+\begin{itemize}
+    \item \fullcite{Neale-Hunter-Pritikin-etal-2015}
+\end{itemize}
+
 \section*{semlbci}
 
 \begin{itemize}
