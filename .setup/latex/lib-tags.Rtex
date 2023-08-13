@@ -3,7 +3,7 @@
 \input{.setup/latex/preamble/preamble}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% BIBLATEX READING
+% BIBLATEX APA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %% begin.rcode
@@ -43,8 +43,7 @@
 %         ".setup",
 %         "latex",
 %         "bib"
-%       ),
-%       style = "reading"
+%       )
 %     )
 %   )
 % } else {
@@ -58,8 +57,7 @@
 %       output_path = root$find_file(
 %         ".setup",
 %         "latex"
-%       ),
-%       style = "reading"
+%       )
 %     )
 %   )
 % }
@@ -67,68 +65,29 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{R Packages}
-\author{Ivan Jacob Agaloos Pesigan}
-\date{\today}
-
 \begin{document}
 
-\maketitle
+%% begin.rcode
+% #| echo = FALSE
+% bib <- root$find_file(
+%   ".setup",
+%   "latex",
+%   "bib",
+%   "bib.bib"
+% )
+% X <- RefManageR::ReadBib(bib)
+% key <- names(X)
+% annotation <- lapply(X = X, function(x) x$annotation)
+% keywords <- lapply(X = X, function(x) x$keywords)
+% x <- cbind(
+%   key = key,
+%   annotation = annotation,
+%   keywords = keywords
+% )
+% knitr::kable(x)
+%% end.rcode
 
-\section*{betaDela}
-
-\begin{itemize}
-    \item \fullcite{Pesigan-Sun-Cheung-2023}
-\end{itemize}
-
-\section*{betaSandwich}
-
-\begin{itemize}
-    \item \fullcite{Pesigan-Sun-Cheung-2023}
-\end{itemize}
-
-\section*{dynr}
-
-\begin{itemize}
-    \item \fullcite{Ou-Hunter-Chow-2019}
-\end{itemize}
-
-\section*{fungible}
-
-\begin{itemize}
-    \item \fullcite{Waller-2022}
-\end{itemize}
-
-\section*{lavaan}
-
-\begin{itemize}
-    \item \fullcite{Rosseel-2012}
-\end{itemize}
-
-\section*{OpenMx}
-
-\begin{itemize}
-    \item \fullcite{Neale-Hunter-Pritikin-etal-2015}
-\end{itemize}
-
-\section*{Rcpp}
-
-\begin{itemize}
-    \item \fullcite{Eddelbuettel-Francois-Allaire-etal-2023}
-\end{itemize}
-
-\section*{semmcci}
-
-\begin{itemize}
-    \item \fullcite{Pesigan-Cheung-2023}
-\end{itemize}
-
-\section*{semlbci}
-
-\begin{itemize}
-    \item \fullcite{Cheung-Pesigan-2023b}
-\end{itemize}
-
+\nocite{*}
 
 \printbibliography
 
