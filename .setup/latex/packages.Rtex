@@ -105,6 +105,18 @@
     \item \fullcite{Rosseel-2012}
 \end{itemize}
 
+\section*{MASS}
+
+\begin{itemize}
+    \item \fullcite{Venables-Ripley-2002}
+\end{itemize}
+
+\section*{mice}
+
+\begin{itemize}
+    \item \fullcite{vanBuuren-GroothuisOudshoorn-2011}
+\end{itemize}
+
 \section*{OpenMx}
 
 \begin{itemize}
@@ -129,6 +141,11 @@
     \item \fullcite{Cheung-Pesigan-2023b}
 \end{itemize}
 
+\section*{semTools}
+
+\begin{itemize}
+    \item \fullcite{Jorgensen-Pornprasertmanit-Schoemann-etal-2022}
+\end{itemize}
 
 \printbibliography
 
