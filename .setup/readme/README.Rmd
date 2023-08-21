@@ -6,7 +6,16 @@ output: github_document
 bibliography: "vignettes.bib"
 csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
 nocite: |
-  @*
+  @Eddelbuettel-Francois-Allaire-etal-2023
+  @Jorgensen-Pornprasertmanit-Schoemann-etal-2022
+  @Neale-Hunter-Pritikin-etal-2015
+  @Ou-Hunter-Chow-2019
+  @Pesigan-Cheung-2023
+  @Pesigan-Sun-Cheung-2023
+  @Rosseel-2012
+  @Venables-Ripley-2002
+  @Waller-2022
+  @vanBuuren-GroothuisOudshoorn-2011
 ---
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
