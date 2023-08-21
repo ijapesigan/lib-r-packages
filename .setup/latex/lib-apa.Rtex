@@ -69,12 +69,33 @@
 
 \begin{center}
     \LARGE
-    \textbf{Ivan Jacob Agaloos Pesigan} \\
+    \textbf{R Packages} \\
+    Ivan Jacob Agaloos Pesigan \\
     \large
-    \textbf{\today}
+    \today
 \end{center}
 
-\nocite{*}
+\nocite{Cheung-Pesigan-2023b}
+
+\nocite{Eddelbuettel-Francois-Allaire-etal-2023}
+
+\nocite{Jorgensen-Pornprasertmanit-Schoemann-etal-2022}
+
+\nocite{Neale-Hunter-Pritikin-etal-2015}
+
+\nocite{Ou-Hunter-Chow-2019}
+
+\nocite{Pesigan-Cheung-2023}
+
+\nocite{Pesigan-Sun-Cheung-2023}
+
+\nocite{Rosseel-2012}
+
+\nocite{Venables-Ripley-2002}
+
+\nocite{Waller-2022}
+
+\nocite{vanBuuren-GroothuisOudshoorn-2011}
 
 \printbibliography
 

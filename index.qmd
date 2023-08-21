@@ -1,7 +1,17 @@
 ---
 title: References
 nocite: |
-  @*
+  @Cheung-Pesigan-2023b
+  @Eddelbuettel-Francois-Allaire-etal-2023
+  @Jorgensen-Pornprasertmanit-Schoemann-etal-2022
+  @Neale-Hunter-Pritikin-etal-2015
+  @Ou-Hunter-Chow-2019
+  @Pesigan-Cheung-2023
+  @Pesigan-Sun-Cheung-2023
+  @Rosseel-2012
+  @Venables-Ripley-2002
+  @Waller-2022
+  @vanBuuren-GroothuisOudshoorn-2011
 ---
 
 ::: {#refs}

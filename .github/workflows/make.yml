@@ -31,6 +31,7 @@ jobs:
       -
         name: Make Library
         run: |
+          make bib
           make push
       - 
         name: Commit and push changes
@@ -41,6 +42,7 @@ jobs:
       -
         name: Make LaTeX
         run: |
+          make bib
           make pdf
       - 
         name: Push to the latex branch
@@ -53,6 +55,7 @@ jobs:
       -
         name: Make quarto
         run: |
+          make bib
           make quarto
       -
         name: Add .nojekyll
