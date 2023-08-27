@@ -126,7 +126,25 @@
 \section*{Rcpp}
 
 \begin{itemize}
+    \item \fullcite{Eddelbuettel-2013}
+\end{itemize}
+
+\begin{itemize}
+    \item \fullcite{Eddelbuettel-Balamuta-2017}
+\end{itemize}
+
+\begin{itemize}
+    \item \fullcite{Eddelbuettel-Francois-2011}
+\end{itemize}
+
+\begin{itemize}
     \item \fullcite{Eddelbuettel-Francois-Allaire-etal-2023}
+\end{itemize}
+
+\section*{RcppArmadillo}
+
+\begin{itemize}
+    \item \fullcite{Eddelbuettel-Sanderson-2014}
 \end{itemize}
 
 \section*{semmcci}
